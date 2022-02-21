@@ -1014,7 +1014,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
     function Ga(e) {
         return Na(Ha, e)
     }
-    var Ba = "পাগলমনabcdefghijklmnopqrstuvwxyz",
+    var Ba = "ফপাগলমনabcdefghijklmnopqrstuvwxyz",
         Fa = [].concat(g(Ba.split("").slice(13)), g(Ba.split("").slice(0, 13)));
 
     function Wa(e) {
