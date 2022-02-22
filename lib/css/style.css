@@ -6,7 +6,7 @@
   text-align: center;
 }
 
-td {
+td{
   border: 1px solid #da1569;
   /*background: #231f20;*/
   background: #343433;
@@ -23,11 +23,16 @@ td {
   text-align: center;
 }
 
+input {
+  padding: 10px;
+  font-size: 10px;
+}
+
 table{
   background: #565656;
-  height: 400px;
+  height: 200px;
   width: 100%;
-  margin-left: 30%;
+  /*margin-left: 30%;*/
 }
 
 #title{
@@ -54,11 +59,25 @@ body{
   height: 300px; /* Should be removed. Only for demonstration */
 }
 
-
-
 /* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
+
+#myKeyboard{
+  color: white;
+  padding-top: 100px;
+}
+
+
+/*https://www.w3schools.com/css/css3_buttons.asp*/
+
+.button{
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+  padding-right: 20px;
+}
+
